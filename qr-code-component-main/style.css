@@ -11,6 +11,7 @@
 	--color-bg: hsl(212, 45%, 89%);
 	--color-grey: hsl(216, 15%, 48%);
 }
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
@@ -63,8 +64,16 @@ body {
 	font-weight: 400;
 }
 
+/* for screens below 1440 */
 @media screen and (max-width: 1439px) {
 	body {
 		width: 100%;
+	}
+}
+
+/* for screens below 320px */
+@media screen and (max-width: 320px) {
+	body {
+		width: 90%;
 	}
 }
