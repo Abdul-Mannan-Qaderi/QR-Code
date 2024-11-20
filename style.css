@@ -74,6 +74,6 @@ body {
 /* for screens below 320px */
 @media screen and (max-width: 320px) {
 	body {
-		width: 90%;
+		width: 80%;
 	}
 }
